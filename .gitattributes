@@ -1,2 +1,3 @@
 *.bf linguist-language=Brainfuck
+*.bf linguist-detectable=true
 examples/*.bf linguist-language=Brainfuck
