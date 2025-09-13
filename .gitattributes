@@ -1,3 +1,4 @@
 *.bf linguist-language=Brainfuck
 *.bf linguist-detectable=true
-*.py linguist-vendored=true
+*.asm linguist-language=Assembly
+*.sh linguist-language=Shell

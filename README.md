@@ -1,22 +1,30 @@
-# Brainfuck Interpreter & Examples
+# Tiny Brainfuck, Assembly, and Shell
 
-Welcome to my first GitHub repository! I updatesd this project with a minimal Brainfuck interpreter written in Python, along with several example Brainfuck programs.
+This repository now focuses on tiny examples in three languages:
 
-## Features
-- Minimal Brainfuck interpreter (`interpreter.py`)
-- Example Brainfuck programs in the `examples/` folder:
-	- `hello.bf`: Prints "Hello World!"
-	- `add.bf`: Demonstrates addition
-	- `echo.bf`: Echoes input
-	- `multiply.bf`: Multiplies two numbers
-	- `loop.bf`: Simple loop example
+- Brainfuck (see `examples/`)
+- Assembly (NASM) – `interpreter.asm` prints a short message
+- Shell – `hello.sh` prints a short message
 
-## How to Use
-1. Run the interpreter with any `.bf` file in the `examples/` folder.
-2. Explore and modify the examples, or add your own Brainfuck code!
+No Python or C files are needed anymore.
 
-## Testing
-Unit tests are provided in the `tests/` folder. Run them with `pytest`.
+## Files
+- `examples/hello.bf` – Hello World in Brainfuck
+- `examples/add.bf`, `examples/echo.bf`, `examples/loop.bf`, `examples/multiply.bf` – small BF samples
+- `interpreter.asm` – minimal x86-64 Linux program that prints a message
+- `hello.sh` – tiny shell script
 
----
-This repository was created to learn Git and Python, and updated with Brainfuck language examples. Enjoy experimenting!
+## Build/Run
+Assembly (Linux/x86-64):
+1) nasm -f elf64 interpreter.asm -o interpreter.o
+2) ld interpreter.o -o hello_asm
+3) ./hello_asm
+
+Shell:
+1) sh ./hello.sh
+
+Brainfuck:
+Use any BF interpreter to run files in `examples/`.
+
+## Linguist
+`.gitattributes` is configured so GitHub recognizes Brainfuck, Assembly, and Shell.
