@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Testing/
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.app
+*.dSYM/
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+
+# Ninja/VS artifacts
+*.ninja
+.ninja_deps
+.ninja_log
+*.sln
+*.vcxproj*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
