@@ -1,6 +1,6 @@
 # Brainfuck Interpreter & Examples
 
-Welcome to my first GitHub repository! This project is a minimal Brainfuck interpreter written in Python, along with several example Brainfuck programs.
+Welcome to my first GitHub repository! I updatesd this project with a minimal Brainfuck interpreter written in Python, along with several example Brainfuck programs.
 
 ## Features
 - Minimal Brainfuck interpreter (`interpreter.py`)
