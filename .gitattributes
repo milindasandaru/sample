@@ -1,1 +1,2 @@
 *.bf linguist-language=Brainfuck
+examples/*.bf linguist-language=Brainfuck
